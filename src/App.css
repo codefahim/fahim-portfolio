@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.parallax-window{
+  min-height: 400px;
+    background: transparent;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

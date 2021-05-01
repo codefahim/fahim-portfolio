@@ -1,0 +1,16 @@
+.Home{
+    height: 600px;
+}
+.colorOvely{
+    height:100%;
+    background-color: rgba(210,210,210,.8);
+}
+.text{
+    margin: auto;
+    padding-top: 16%;
+}
+
+code{
+    font-size:25px;
+    color: #343a40;
+}

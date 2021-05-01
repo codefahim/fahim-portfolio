@@ -1,0 +1,37 @@
+.about{
+    min-height: 600px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.about-image{
+    width: 80%;
+    margin: auto;
+}
+.about-text{
+    padding-top: 5%;
+    width: 80%;
+    margin: auto;
+}
+.download-link{
+    padding:10px 10px;
+    background-color:#343a40;
+    text-transform: uppercase;
+    color: white;
+}
+.download-link:hover{
+    text-decoration: none;
+    background-color:#fff;
+    border: 1px solid #343a40;
+    font-size: 16px;
+   color: #343a40;
+}
+.btn-div{
+    margin-top:60px;
+}
+.about-ul>li{
+border-bottom: 1px solid rgba(0,0,0,0.1);
+list-style: none;
+padding: 7px 5px;
+}
+.img{
+    height:420px;
+}
