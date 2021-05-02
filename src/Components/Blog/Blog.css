@@ -11,9 +11,7 @@ figure{
 .blogImage{
     transition:all 0.8s linear;
 }
-.card{
-    border: 0;
-}
+
 .card:hover .blogImage{
     transform:scale(1.3)
 }

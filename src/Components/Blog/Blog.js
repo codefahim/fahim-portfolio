@@ -9,7 +9,7 @@ const Blog = () => {
     <section className='Blog'>
       <h3 className='text-uppercase py-5'>recent blog</h3>
       <div className='container'>
-        <div className='row w-100'>
+        <div className='row w-100 m-auto'>
           <div className='col-md-4 my-5 m-auto '>
             <Card className='effect card' style={{ width: '18rem' }}>
               <div className='imageHolder'>

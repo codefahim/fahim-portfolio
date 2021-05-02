@@ -1,0 +1,25 @@
+.border-bottom{
+    margin-bottom: 1px solid rgba(0,0,0,0.8);
+}
+.contact-foam{
+    margin: 25px 0;
+}
+.user_name{
+width:350px;
+display: block;
+padding: 6px 0;
+margin: 8px auto;
+border: 0.8px solid rgba(0,0,0,0.3);
+}
+.submit-btn{
+    padding: 4px 20px;
+    background-color: #343a40;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: #343a40;
+    border: 1px solid #343a40;
+}
