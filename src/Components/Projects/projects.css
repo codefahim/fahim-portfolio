@@ -1,0 +1,6 @@
+.project{
+    min-height: 600px;
+}
+.effect:hover{
+    box-shadow: -1px 2px 34px 3px rgba(82,166,255,0.35);
+}
