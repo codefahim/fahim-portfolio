@@ -11,7 +11,7 @@ const Blog = () => {
       <div className='container'>
         <div className='row w-100 m-auto'>
           <div className='col-md-4 my-5 m-auto '>
-            <Card className='effect card' style={{ width: '18rem' }}>
+            <Card className='effect card my-2' style={{ width: '18rem' }}>
               <div className='imageHolder'>
                 <figure>
                   <Card.Img variant='top' src={blogOne} className='blogImage' />
@@ -31,8 +31,8 @@ const Blog = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className='col-md-4 my-5 m-auto '>
-            <Card className='effect card' style={{ width: '18rem' }}>
+          <div className='col-md-4 my-5 m-auto'>
+            <Card className='effect card  my-2' style={{ width: '18rem' }}>
               <div className='imageHolder'>
                 <figure>
                   <Card.Img variant='top' src={blogTwo} className='blogImage' />
@@ -52,8 +52,8 @@ const Blog = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className='col-md-4 my-5 m-auto '>
-            <Card className='effect card' style={{ width: '18rem' }}>
+          <div className='col-md-4 my-5 m-auto'>
+            <Card className='effect card  my-2' style={{ width: '18rem' }}>
               <div className='imageHolder'>
                 <figure>
                   <Card.Img

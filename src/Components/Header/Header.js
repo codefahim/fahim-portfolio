@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <div>
-      <Navbar expand='lg' className='container'>
+      <Navbar bg='light' expand='lg' className='container-fluid'>
         <Navbar.Brand href='#home'>FAHIM</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
