@@ -1,29 +1,27 @@
 import React from 'react';
 import './Home.css';
 import Typical from 'react-typical';
-import image from '../../Images/fahim.png';
 
 const Home = () => {
   return (
     <section
+      id='home'
       className='parallax-window Home'
       data-parallax='scroll'
-      data-image-src={image}
       data-z-index='-1'
     >
       <div className='colorOvely'>
-        <h1 className='text text-uppercase'>I'm abdullah al Fahim</h1>
+        <h1 className='text text-uppercase banner'>hi,I'm Fahim</h1>
 
-        <p className='p-5'>
+        <p className='p-5 '>
           <Typical
+            className='moveText'
             steps={[
-              "I'M a ReactJS Developer",
+              "I'M a JavaScript Developer",
               3000,
-              'I have been completed 5+ project',
+              'Love To write Blog',
               3000,
-              'I have more than 1 year of coding  experience ',
-              3000,
-              "I'M familiar with PHP,SQL,Redux,axios,WordPress and More.",
+              'Familiar with WordPress',
               3000,
             ]}
             loop={Infinity}

@@ -7,11 +7,15 @@ import rider from '../../Images/rider.png';
 import emajon from '../../Images/ema-jon.png';
 const Projects = () => {
   return (
-    <section className='project container'>
+    <section
+      className='project container'
+      id='Project'
+      style={{ fontFamily: 'Georgia' }}
+    >
       <h3 className='text-uppercase my-5'>My Recent Projects</h3>
       <div className='row w-100 m-auto'>
         <div className='col-md-4 my-5 m-auto '>
-          <Card className='effect' style={{ width: '18rem' }}>
+          <Card className='effect' style={{ width: '18rem', height: '610px' }}>
             <Card.Img variant='top' src={fixer} />
             <Card.Body>
               <Card.Title>Smart Fixer</Card.Title>
@@ -44,7 +48,7 @@ const Projects = () => {
         </div>
 
         <div className='col-md-4 my-5'>
-          <Card className='effect' style={{ width: '18rem' }}>
+          <Card className='effect' style={{ width: '18rem', height: '610px' }}>
             <Card.Img variant='top' src={emart} />
             <Card.Body>
               <Card.Title>Emart</Card.Title>
@@ -75,7 +79,7 @@ const Projects = () => {
         </div>
 
         <div className='col-md-4 my-5'>
-          <Card className='effect' style={{ width: '18rem' }}>
+          <Card className='effect' style={{ width: '18rem', height: '610px' }}>
             <Card.Img variant='top' src={emajon} />
             <Card.Body>
               <Card.Title>Ema-jon</Card.Title>
@@ -104,11 +108,12 @@ const Projects = () => {
             </Card.Body>
           </Card>
         </div>
-
+        {/* 
         <div className='col-md-4 my-5'>
           <Card className='effect' style={{ width: '18rem' }}>
             <Card.Img variant='top' src={rider} />
             <Card.Body>
+             
               <Card.Title>Dream City Riders</Card.Title>
               <Card.Text className='text-justify'>
                 Choose A vehicle (Tran,Bus or Bike). Select Destination From Map
@@ -134,7 +139,7 @@ const Projects = () => {
               </div>
             </Card.Body>
           </Card>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ import {
 } from 'react-icons/di';
 const Skill = () => {
   return (
-    <section className='skills'>
+    <section className='skills' id='Skills' style={{ fontFamily: 'Georgia' }}>
       <div className='container'>
         <h2 className='mt-5 p-5 text-uppercase'>Skills</h2>
         <div className='row w-100'>

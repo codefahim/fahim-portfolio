@@ -18,7 +18,7 @@ const Contact = () => {
       );
   }
   return (
-    <section className='contact'>
+    <section className='contact' id='Contact' style={{ fontFamily: 'Georgia' }}>
       <h3 className='text-uppercase py-5'>contact details</h3>
       <div className='container'>
         <div className='row py-5 border-bottom'>

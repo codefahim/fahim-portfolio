@@ -1,9 +1,10 @@
 .Home{
     height: 600px;
+    
 }
 .colorOvely{
     height:100%;
-    background-color: rgba(210,210,210,.8);
+    background-color: black;
 }
 .text{
     margin: auto;
@@ -13,4 +14,16 @@
 code{
     font-size:25px;
     color: #343a40;
+}
+.banner{
+    font-size:65px;
+    color: white;
+    font-weight:bold;
+    font-family:'gg';
+   letter-spacing: 15px;
+}
+.moveText{
+    color: white;
+    font-size:40px;
+    font-family: 'Georgia';
 }

@@ -16,6 +16,7 @@
     background-color:#343a40;
     text-transform: uppercase;
     color: white;
+    margin-bottom: 20px;
 }
 .download-link:hover{
     text-decoration: none;
@@ -26,6 +27,7 @@
 }
 .btn-div{
     margin-top:60px;
+    padding-bottom: 20px;
 }
 .about-ul>li{
 border-bottom: 1px solid rgba(0,0,0,0.1);
